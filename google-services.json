@@ -1,0 +1,207 @@
+{
+  "project_info": {
+    "project_number": "1055987465154",
+    "firebase_url": "https://flutter-main-projects.firebaseio.com",
+    "project_id": "flutter-main-projects",
+    "storage_bucket": "flutter-main-projects.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1055987465154:android:86de0d4e00cde5298c745b",
+        "android_client_info": {
+          "package_name": "com.appstuddio.notifications"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1055987465154-i0bhft479iq9kc105gh8gthvsgfgjq5p.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.appstuddio.notifications",
+            "certificate_hash": "74bcf538eb0e948c39568906a6979fc8f448540e"
+          }
+        },
+        {
+          "client_id": "1055987465154-mi0d0cftinf1vhrj8thh9kkd9eekgr62.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCIKHpK-QxQOjFUIAlCkUY7Z2CMlrBioSs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1055987465154-mi0d0cftinf1vhrj8thh9kkd9eekgr62.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1055987465154-tp5bqtogbcelif8ogu2sn3mlv9dq25mv.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.rodrigoleonel.auth"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1055987465154:android:2f400afb980091398c745b",
+        "android_client_info": {
+          "package_name": "com.bancom.cambix"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1055987465154-mi0d0cftinf1vhrj8thh9kkd9eekgr62.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCIKHpK-QxQOjFUIAlCkUY7Z2CMlrBioSs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1055987465154-mi0d0cftinf1vhrj8thh9kkd9eekgr62.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1055987465154-tp5bqtogbcelif8ogu2sn3mlv9dq25mv.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.rodrigoleonel.auth"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1055987465154:android:dd57a757e674963d8c745b",
+        "android_client_info": {
+          "package_name": "com.example.test_appdistribution"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1055987465154-mi0d0cftinf1vhrj8thh9kkd9eekgr62.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCIKHpK-QxQOjFUIAlCkUY7Z2CMlrBioSs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1055987465154-mi0d0cftinf1vhrj8thh9kkd9eekgr62.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1055987465154-tp5bqtogbcelif8ogu2sn3mlv9dq25mv.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.rodrigoleonel.auth"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1055987465154:android:457175c4e6577bab8c745b",
+        "android_client_info": {
+          "package_name": "com.rodrigoleonel.auth"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1055987465154-1aa6cid3b9uemcb4be2diih2ethkedrt.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.rodrigoleonel.auth",
+            "certificate_hash": "74bcf538eb0e948c39568906a6979fc8f448540e"
+          }
+        },
+        {
+          "client_id": "1055987465154-mi0d0cftinf1vhrj8thh9kkd9eekgr62.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCIKHpK-QxQOjFUIAlCkUY7Z2CMlrBioSs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1055987465154-mi0d0cftinf1vhrj8thh9kkd9eekgr62.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1055987465154-tp5bqtogbcelif8ogu2sn3mlv9dq25mv.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.rodrigoleonel.auth"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1055987465154:android:085ddd2c7ec2d1f28c745b",
+        "android_client_info": {
+          "package_name": "com.telefonica.ventasconvergente"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1055987465154-mi0d0cftinf1vhrj8thh9kkd9eekgr62.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCIKHpK-QxQOjFUIAlCkUY7Z2CMlrBioSs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1055987465154-mi0d0cftinf1vhrj8thh9kkd9eekgr62.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1055987465154-tp5bqtogbcelif8ogu2sn3mlv9dq25mv.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.rodrigoleonel.auth"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
