@@ -124,6 +124,42 @@
     },
     {
       "client_info": {
+        "mobilesdk_app_id": "1:1055987465154:android:93ea56451b13dd3a8c745b",
+        "android_client_info": {
+          "package_name": "com.example.test_appdistribution.host"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1055987465154-mi0d0cftinf1vhrj8thh9kkd9eekgr62.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCIKHpK-QxQOjFUIAlCkUY7Z2CMlrBioSs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1055987465154-mi0d0cftinf1vhrj8thh9kkd9eekgr62.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1055987465154-tp5bqtogbcelif8ogu2sn3mlv9dq25mv.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.rodrigoleonel.auth"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
         "mobilesdk_app_id": "1:1055987465154:android:457175c4e6577bab8c745b",
         "android_client_info": {
           "package_name": "com.rodrigoleonel.auth"
