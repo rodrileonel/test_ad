@@ -11,10 +11,9 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout
       - run: flutter pub get
       - run: flutter build apk
-      - uses: actions/upload-artifact
+      - uses: actions/upload-artifact@v1
         with:
           name: release-apk
           path: build/host/outputs/apk/release/app-release.apk
