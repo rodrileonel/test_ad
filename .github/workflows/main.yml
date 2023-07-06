@@ -11,13 +11,14 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      - uses: actions/checkout
       - run: flutter pub get
       - run: flutter build apk
       - uses: actions/upload-artifact
         with:
           name: release-apk
           path: build/host/outputs/apk/release/app-release.apk
-      - name: upload artifact to App Distribution
+      - name: upload artifact to Firebase App Distribution
         uses: wzieba/Firebase-Distribution-Github-Action@v1
         with:
             appId: ${{secrets.APP_ID}}
