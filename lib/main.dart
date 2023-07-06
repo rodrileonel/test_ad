@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:test_appdistribution/firebase_options.dart';
 
 Future<void> main() async {
+  WidgetsFlutterBinding.ensureInitialized();
   await Firebase.initializeApp(options: DefaultFirebaseOptions.currentPlatform);
   runApp(const MyApp());
 }
@@ -19,7 +20,7 @@ class MyApp extends StatelessWidget {
           title: const Text('Material App Bar'),
         ),
         body: const Center(
-          child: Text('Hello World'),
+          child: Text('This is a app distribution test'),
         ),
       ),
     );
