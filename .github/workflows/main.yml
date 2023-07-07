@@ -17,19 +17,21 @@ jobs:
         uses: actions/setup-java@v3
         with:
           distribution: 'zulu'
-          java-version: '17'
+          java-version: "12.x"
       - name: Set up Android SDK
         uses: android-actions/setup-android@v2
         with:
           sdk-version: '33'
-      - name: Setup Gradle
-        uses: gradle/gradle-build-action@v2
+      # - name: Setup Gradle
+      #   uses: gradle/gradle-build-action@v2
+      # - name: Run build with Gradle Wrapper
+      #   run: ./gradlew build
       - name: Install Flutter 
         uses: subosito/flutter-action@v2
         with:
-          flutter-version: '3.10.5'
-      - run: flutter pub get
-      - run: flutter analyze
+          channel: "stable"
+      # - run: flutter pub get
+      # - run: flutter analyze
       - run: flutter build apk
       - uses: actions/upload-artifact@v1
         with:
