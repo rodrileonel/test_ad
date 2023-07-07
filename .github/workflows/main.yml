@@ -14,11 +14,9 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v3
       - name: Install Java
-        uses: actions/setup-java@v3
+        uses: actions/setup-java@v1
         with:
-          distribution: 'zulu'
-          java-version: "12.x"
-          cache: 'gradle'
+          java-version: '15.x'
       - name: Install Flutter 
         uses: subosito/flutter-action@v2
         with:
