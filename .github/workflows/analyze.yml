@@ -1,10 +1,9 @@
-name: Analyze
+name: Run Analyze
 
 on:
   pull_request:
     branches: 
       - main
-
 
 jobs:
   analyze:
