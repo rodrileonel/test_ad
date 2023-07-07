@@ -20,7 +20,6 @@ jobs:
       - run: flutter pub get
       - run: flutter analyze
 
-jobs:
   tests:
 
     runs-on: ubuntu-latest
