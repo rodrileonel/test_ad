@@ -5,6 +5,7 @@ on:
     branches:
       - main
     pull-request:
+      types: [opened, closed]
 
 jobs:
   build:
@@ -19,9 +20,9 @@ jobs:
         with:
           channel: "stable"
       - run: flutter pub get
-      # - run: flutter analyze
+      - run: flutter analyze
       - name: Increase version code and change version name
         run: |
           # Update build.gradle with new version code and name
-          echo "${{ env.VERSION_CODE }} .... ${{ env.version_name }} .... ${{ env.compile_sdk_version }}"
+          echo "${{ env.VERSION_CODE }} .... ${{ env.version_name }} .... ${{ env.CURRENT_VERSION }}"
       
