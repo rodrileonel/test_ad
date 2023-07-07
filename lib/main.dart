@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
       title: 'Material App',
       home: Scaffold(
         appBar: AppBar(
-          title: const Text('Material App Bar'),
+          title: const Text('Material App Bar')
         ),
         body: const Center(
           child: Text('App distribution test'),
@@ -22,3 +22,5 @@ class MyApp extends StatelessWidget {
     );
   }
 }
+
+

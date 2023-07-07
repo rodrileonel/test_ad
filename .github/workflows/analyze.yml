@@ -1,4 +1,4 @@
-name: Analyze
+name: CI/CD
 
 on:
   pull_request:
@@ -19,8 +19,17 @@ jobs:
           channel: "stable"
       - run: flutter pub get
       - run: flutter analyze
-      - name: Increase version code and change version name
-        run: |
-          # Update build.gradle with new version code and name
-          echo "${{ env.VERSION_CODE }} .... ${{ env.version_name }} .... ${{ env.CURRENT_VERSION }}"
-      
+
+  tests:
+
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+      - name: Install Flutter 
+        uses: subosito/flutter-action@v2
+        with:
+          channel: "stable"
+      - run: flutter pub get
+      - run: flutter test
