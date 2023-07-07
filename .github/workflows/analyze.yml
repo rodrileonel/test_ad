@@ -9,6 +9,7 @@ on:
         - open
         - closed
 
+
 jobs:
   build:
     if: (github.event.action == 'opened' && github.event_name == 'pull_request')
