@@ -31,8 +31,8 @@ jobs:
       - name: Set up Android SDK
         uses: android-actions/setup-android@v2
         with:
-          sdk-version: 33
-          api-level: 33
+          sdk-version: ['33']
+          api-level: ['33']
       - run: flutter build apk
       - uses: actions/upload-artifact@v1
         with:
