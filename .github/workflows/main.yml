@@ -18,21 +18,12 @@ jobs:
         with:
           distribution: 'zulu'
           java-version: "12.x"
-      # - name: Run build with Gradle Wrapper
-      #   run: ./gradlew build
+          cache: 'gradle'
       - name: Install Flutter 
         uses: subosito/flutter-action@v2
         with:
           channel: "stable"
       - run: flutter pub get
-      # - run: flutter analyze
-      - name: Setup Gradle
-        uses: gradle/gradle-build-action@v2
-      - name: Set up Android SDK
-        uses: android-actions/setup-android@v2
-        with:
-          # sdk-version: 33
-          api-level: 33
       - run: flutter build apk
       - uses: actions/upload-artifact@v1
         with:
@@ -43,5 +34,5 @@ jobs:
         with:
             appId: ${{secrets.APP_ID}}
             token: ${{secrets.TOKEN}}
-            groups: qa-android
+            groups: pre-test
             file: build/host/outputs/apk/release/app-release.apk
