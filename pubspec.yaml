@@ -19,9 +19,6 @@ dev_dependencies:
   flutter_lints: ^2.0.0
 
 flutter:
-  # targetSdkVersion: 33
-  # compileSdkVersion: 33
-  # minSdkVersion: 21
   uses-material-design: true
   module:
     androidX: true
