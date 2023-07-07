@@ -21,7 +21,7 @@ jobs:
       - name: Set up Android SDK
         uses: android-actions/setup-android@v2
         with:
-          sdk-version: '33'
+          sdk-version: ['33']
       - name: Install Flutter 
         uses: subosito/flutter-action@v2
         with:
