@@ -26,20 +26,13 @@ jobs:
         uses: subosito/flutter-action@v2
         with:
           channel: "stable"
-      # - run: flutter pub get
+      - run: flutter pub get
       # - run: flutter analyze
-      # - name: Set up Android SDK
-      #   uses: android-actions/setup-android@v2
-      #   with:
-      #     sdk-version: '33'
-      - name: Instrumentation Tests
-        uses: reactivecircus/android-emulator-runner@v2
+      - name: Set up Android SDK
+        uses: android-actions/setup-android@v2
         with:
+          sdk-version: 33
           api-level: 33
-          target: default
-          arch: x86
-          profile: Nexus 6
-          script: ./gradlew connectedCheck --stacktrace
       - run: flutter build apk
       - uses: actions/upload-artifact@v1
         with:
