@@ -1,16 +1,16 @@
 name: Build & upload to Firebase App Distribution
 
 on:
-  push:
+  pull_request:
+    types:
+      - opened
+      - closed
     branches:
       - main
-    pull-request:
-      types: 
-        - open
 
 jobs:
   build:
-
+    if: (github.event.action == 'opened' && github.event_name == 'pull_request')
     runs-on: ubuntu-latest
 
     steps:
