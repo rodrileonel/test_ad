@@ -18,7 +18,8 @@ jobs:
         with:
           distribution: 'zulu'
           java-version: "12.x"
-          cache: 'gradle'
+      - name: Install Gradle
+        uses: gradle/gradle-build-action@v3
       - name: Install Flutter 
         uses: subosito/flutter-action@v2
         with:
